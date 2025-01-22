@@ -1,0 +1,52 @@
+# Arquivos de configuração e credenciais
+*.yaml
+*.yml
+*.json
+*.config
+
+# Pesos do modelo
+*.pt
+*.onnx
+*.tflite
+*.engine
+*.weights
+
+# Arquivos gerados durante o treinamento
+runs/
+results/
+*.log
+*.csv
+*.json
+
+# Arquivos de cache
+__pycache__/
+*.py[cod]
+.cache/
+*.npy
+*.pkl
+
+# Imagens ou arquivos temporários
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.mp4
+*.avi
+*.mkv
+*.webm
+*.gif
+*.tmp
+
+# Bibliotecas instaladas
+env/
+.venv/
+venv/
+*.egg-info/
+*.whl
+
+# Notebooks Jupyter temporários
+.ipynb_checkpoints/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
