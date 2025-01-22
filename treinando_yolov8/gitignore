@@ -1,0 +1,33 @@
+# Ignorar ambientes virtuais
+.venv/
+env/
+venv/
+
+# Ignorar arquivos de cache do Python
+__pycache__/
+*.py[cod]
+
+# Ignorar modelos pré-treinados e outros arquivos grandes
+*.pt
+*.onnx
+*.weights
+
+# Ignorar dados brutos e saídas de treinamento (caso não queira versioná-los)
+datasets/
+runs/
+
+# Ignorar arquivos de log ou temporários
+*.log
+*.tmp
+
+# Ignorar arquivos de configuração específicos do sistema
+.DS_Store
+*.swp
+*.bak
+*.old
+
+# Manter arquivos necessários
+!*.py
+!*.yaml
+!README.md
+!LICENSE
